@@ -1,0 +1,17 @@
+HASIL EVALUASI CHALLENGE SET (Kondisi Menantang)
+============================================================
+
+Threshold: 0.6673
+
+[JAUH]
+  Total foto: 20
+  Detection rate: 0.6000
+  Recall: 0.0000
+  Avg similarity: 0.4103
+
+[GELAP]
+  Total foto: 20
+  Detection rate: 0.4000
+  Recall: 0.4000
+  Avg similarity: 0.7680
+

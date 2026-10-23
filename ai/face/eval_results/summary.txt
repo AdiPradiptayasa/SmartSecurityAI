@@ -1,0 +1,25 @@
+HASIL EVALUASI SISTEM FACE RECOGNITION
+============================================================
+
+Total sampel: 586
+Wajah terdeteksi: 577 (98.5%)
+Gagal terdeteksi: 9 (1.5%)
+
+AUC: 1.0000
+Threshold optimal: 0.6673
+
+Accuracy Keseluruhan: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1-Score: 1.0000
+
+Confusion Matrix:
+[[537   0]
+ [  0  40]]
+
+Breakdown per Pencahayaan:
+  Gelap: n=16, accuracy=1.0000
+  Normal: n=561, accuracy=1.0000
+
+Breakdown per Jarak (estimasi):
+  Dekat: n=577, accuracy=1.0000

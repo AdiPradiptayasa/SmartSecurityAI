@@ -1,0 +1,35 @@
+HASIL PENGUKURAN WAKTU TANGGAP SISTEM
+============================================================
+
+Jumlah pengujian: 82
+
+Motion → Capture (ESP32-CAM):
+  Rata-rata : 3657.7 ms
+  Std Dev   : 2596.8 ms
+  Min       : 198.5 ms
+  Max       : 12012.2 ms
+
+Capture → AI Classification:
+  Rata-rata : 908.7 ms
+  Std Dev   : 3381.5 ms
+  Min       : 0.0 ms
+  Max       : 23265.8 ms
+
+AI → Simpan Database:
+  Rata-rata : 5.2 ms
+  Std Dev   : 14.2 ms
+  Min       : 0.9 ms
+  Max       : 96.6 ms
+
+Database → Kirim Telegram:
+  Rata-rata : 707.9 ms
+  Std Dev   : 606.6 ms
+  Min       : 0.0 ms
+  Max       : 2377.6 ms
+
+TOTAL (Motion → Telegram):
+  Rata-rata : 5279.4 ms
+  Std Dev   : 3977.1 ms
+  Min       : 436.8 ms
+  Max       : 25903.7 ms
+
